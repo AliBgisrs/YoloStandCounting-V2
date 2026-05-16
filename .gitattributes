@@ -1,0 +1,8 @@
+# Windows batch files MUST have CRLF or cmd.exe drops their last command.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Everything else gets the platform default.
+*.py  text
+*.md  text
+*.txt text

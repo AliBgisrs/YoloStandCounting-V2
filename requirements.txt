@@ -1,0 +1,17 @@
+# --- UI ---
+PySide6>=6.6
+
+# --- Model inference ---
+ultralytics>=8.1
+opencv-python>=4.8
+numpy>=1.24
+Pillow>=10
+
+# --- Geospatial I/O ---
+rasterio>=1.3
+fiona>=1.9
+pyproj>=3.6
+shapely>=2.0
+
+# --- Packaging (dev only) ---
+pyinstaller>=6.3
